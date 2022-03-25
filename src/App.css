@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+body {
+  background-image: url(./images/back.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#nextBut {
+  background: rgba(128, 149, 165, 0.8);
+  border-radius: 0.376rem;
+  width: 21.252rem;
+  height: 5.446rem;
+  position: absolute;
+  left: 22.89%;
+  bottom: 9.12%;
+}
+#next {
+  font-weight: 600;
+  font-size: 1.878rem;
+  color: #ffffff;
+  line-height: 2.313rem;
+  width: 4.563rem;
+  height: 2.313rem;
+  right: 2.918rem;
+  top: calc(50% - 2.313rem / 2 + 0.014rem);
+  cursor: pointer;
+}
+#VBE {
+  font-weight: 400;
+  font-size: 1.252rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+  height: 1.938rem;
+  left: 17.59%;
+  right: 17.7%;
+  top: 3.349rem;
+}
+#buttonHome {
+  background: rgba(17, 17, 17, 0.4);
+  border: 0.125rem solid #4097fe;
+  box-sizing: border-box;
+  box-shadow: 0.063rem -0.094rem 0.344rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.626rem 0.626rem 0rem 0rem;
+  width: 8.858rem;
+  height: 4.257rem;
+  position: absolute;
+  left: 3.1216%;
+  bottom: 0%;
+  cursor: pointer;
+}
+#home {
+  font-weight: 500;
+  font-size: 1.252rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+#buttonLang {
+  background: rgba(17, 17, 17, 0.4);
+  border: 0.125rem solid #4097fe;
+  box-sizing: border-box;
+  box-shadow: 0.063rem -0.094rem 0.344rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.626rem 0.6rem 0rem 0rem;
+  height: 4.257rem;
+  width: 12.519rem;
+  position: absolute;
+  right: 3.125%;
+  bottom: 0%;
+  cursor: pointer;
+}
+#lang {
+  font-weight: 500;
+  font-size: 1.252rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+#infra {
+  font-weight: 700;
+  font-size: 2.66rem;
+  line-height: 3.25rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  left: 3.124%;
+  top: 12.9%;
+}
+#ssy {
+  font-weight: 700;
+  font-size: 1.878rem;
+  line-height: 2.313rem;
+  color: #ffffff;
+  position: absolute;
+  left: 3.124%;
+  top: 25.5%;
+}
+#paraText {
+  font-weight: 500;
+  font-size: 1.252rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+  width: 29.688rem;
+  height: 9.438rem;
+  position: absolute;
+  left: 3.124%;
+  top: 32.083%;
+}
+#paraImg {
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #001c33 100%); */
+  font-weight: 700;
+  font-size: 0.65rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+  width: 38.341rem;
+  height: 2.563rem;
+  float: left;
+  float: bottom;
+  padding-top: 6.25rem;
+  padding-left: 2.313rem;
+  position: absolute;
+  left: 54%;
+  bottom: 1.86%;
+}
+#clipImg {
+  /* clip-path: polygon(38.5% 0, 100% 0, 100% 100%, 48% 100%); */
+  position: absolute;
+  right: 0%;
+  height: 100%;
+  z-index: -100;
+}
+.container {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #001c33 100%);
+  position: absolute;
+  width: 44.125rem;
+  height: 9.063rem;
+  left: 54%;
+  top: 81%;
+}
+.sym {
+  position: absolute;
+  left: 90%;
+  top: 20%;
+  color: #ffffff;
+}
+.fa-angle-left {
+  font-size: 2rem;
+}
+.fa-angle-right {
+  font-size: 2rem;
+}
+#moveLeft {
+  background-color: rgba(255, 254, 254, 0);
+  border: none;
+  cursor: pointer;
+  margin-right: 0.7rem;
+}
+#left {
+  color: #ffffff;
+}
+#moveRight {
+  background-color: rgba(255, 254, 254, 0);
+  border: none;
+  cursor: pointer;
+}
+#right {
+  color: #ffffff;
+}
+#para2 {
+  font-weight: 500;
+  font-size: 1.252rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+  width: 40rem;
+  height: 8rem;
+  position: absolute;
+  left: 0%;
+  top: 5%;
+}
+/* #ani {
+  position: absolute;
+  left: 33%;
+  top: 40%;
+  z-index: -200;
+  height: 60%;
+  clip-path: inset(0 0 24% 0); */
+  /* margin-bottom: -500px;
+  transition: 0.3s;
+  
+  cursor: pointer;
+} */
+.circle{
+  position: absolute;
+  left: 33%;
+  top: 40%;
+  z-index: -200;
+  height: 60%;
+  /* clip-path: inset(0 0 24% 0); */
+  /* margin-bottom: -500px; */
+  transition: 0.3s;
+  
+  cursor: pointer;
+}
+.circle:hover{
+  transition: scale(1.5);
+  /* z-index: 2; */
+}
